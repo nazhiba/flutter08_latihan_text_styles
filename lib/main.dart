@@ -11,12 +11,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          appBar: AppBar(
-        title: Text("Latihan Text Style"),
-      ),
-      body: Center(
-        child: Text("Ini adalah Text"),
-      ),
+        appBar: AppBar(
+          title: Text("Latihan Text Style"),
+        ),
+        body: Center(
+          child: Text(
+            "Ini adalah Text",
+            style: TextStyle(fontFamily: "Truculenta", fontStyle: FontStyle.italic, decoration: TextDecoration.lineThrough),
+          ),
+        ),
       ),
     );
   }
