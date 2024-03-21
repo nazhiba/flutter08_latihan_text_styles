@@ -77,7 +77,7 @@ flutter:
   fonts:
     - family: Truculenta
       fonts:
-        - asset: fonts/Truculenta_18pt_Condensed-Light.ttf
+        - asset: font/Truculenta_18pt_Condensed-Light.ttf
         # - asset: fonts/Schyler-Italic.ttf
           style: italic
   #   - family: Trajan Pro

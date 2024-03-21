@@ -17,7 +17,13 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Text(
             "Ini adalah Text",
-            style: TextStyle(fontFamily: "Truculenta", fontStyle: FontStyle.italic, decoration: TextDecoration.lineThrough),
+            style: TextStyle(
+              fontFamily: "Truculenta",
+              decoration: TextDecoration.underline,
+              decorationColor: Colors.red,
+              decorationThickness: 5,
+              decorationStyle: TextDecorationStyle.wavy
+            ),
           ),
         ),
       ),
